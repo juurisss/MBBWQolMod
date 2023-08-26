@@ -1,0 +1,16 @@
+[
+{
+  "modid": "statmod",
+  "name": "Stat Mod For Mineberry",
+  "description": "A mod that has the /st command which is far more advanced than the normal /stat command, this mod utilizes Malkist's API system at \"https://bedwarsapi.malkist.dev/\"",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["EjurisYT"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
