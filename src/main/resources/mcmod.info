@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mbbwqol",
+  "name": "Mineberry Bedwars QOL Modifications",
+  "description": "MBBWQolMod, which stands for Mineberry Bedwars Quality Of Life Modification, is a meticulously designed mod aimed at enriching your gameplay in Mineberry Bedwars. This mod brings forth a set of valuable commands that elevate your convenience. This mod also utilizes Malkist's API system at \"https://bedwarsapi.malkist.dev/\"",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["EjurisYT"],
+  "credits": "EjurisYT and Malkist",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
