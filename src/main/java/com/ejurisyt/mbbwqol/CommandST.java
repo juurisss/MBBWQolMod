@@ -140,7 +140,6 @@ public class CommandST extends CommandBase {
                             }
                         });
                     } else {
-                        // API didn't respond as expected, set all stats to 0
                         String errorMessage = "The API response was not as expected. Are you sure this player exists? If so, this player might be using an alternative account or is new to the server.";
                         String formattedMessage = String.format(
                             "\n\u00A7l\u00A7eStatistics \u00A78\u25B8 \u00A7r\u00A7e%s\n" +
