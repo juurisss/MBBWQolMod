@@ -4,7 +4,7 @@ MBBWQolMod, which stands for Mineberry Bedwars Quality Of Life Modification, is 
 
 ## Commands
 
-### /st <username> - Stat Insight
+### /st <username> - View Stats
 Retrieve detailed player statistics for any specified username, whether you're in-game or on other servers.
 
 ### /mst <username> - Metrics Overview
