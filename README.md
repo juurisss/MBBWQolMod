@@ -17,6 +17,6 @@ Enable, disable, or personalize an automated "Good Game" message that will be au
 Effortlessly activate or deactivate an automatic message sent at the start of a new game, enhancing communication.
 
 ### /aja <on/off> - Auto Join Assistant
-Toggle the Auto Join Assistant feature on or off, granting you the flexibility to customize its behavior as per your preference.
+Toggle the Auto Join Assistant feature on or off. Turn this off if you want the Categories menu to stop appearing when you join the lobby.
 
 **Note:** If /st and /mst don't send back stats within 5 seconds, it means the player is new to the server or is using an alt account.
