@@ -14,7 +14,7 @@ Gain access to a comprehensive breakdown of performance metrics for the designat
 Enable, disable, or personalize an automated "Good Game" message that will be automatically sent when the game concludes.
 
 ### /autogl <on/off/setmsg> - Auto Game Start Message
-Effortlessly activate or deactivate an automatic message sent at the start of a new game, enhancing communication.
+Effortlessly activate or deactivate an automatic message sent at the start of a new game.
 
 ### /aja <on/off> - Auto Join Assistant
 Toggle the Auto Join Assistant feature on or off. Turn this off if you want the Categories menu to stop appearing when you join the lobby.
