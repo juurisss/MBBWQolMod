@@ -13,7 +13,7 @@ Gain access to a comprehensive breakdown of performance metrics for the designat
 ### /autogg <on/off/setmsg> - Auto Good Game
 Enable, disable, or personalize an automated "Good Game" message that will be automatically sent when the game concludes.
 
-### /autogl <on/off/setmsg> - Auto Game Start Message
+### /autogl <on/off/setmsg> - Auto Good Luck
 Effortlessly activate or deactivate an automatic message sent at the start of a new game.
 
 ### /aja <on/off> - Auto Join Assistant
