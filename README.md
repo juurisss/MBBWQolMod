@@ -1,6 +1,6 @@
 ## MBBWQolMod - Enhancing Your Mineberry Bedwars Experience
 
-MBBWQolMod, which stands for Mineberry Bedwars Quality Of Life Modification, is a meticulously designed mod aimed at enhancing your gameplay in Mineberry Bedwars. This mod brings forth a set of valuable commands that help you with your games.
+MBBWQolMod, which stands for Mineberry Bedwars Quality Of Life Modification, is a mod specificly designed to enhance your gameplay in Mineberry Bedwars. This mod brings forth a set of valuable commands that help you with your games.
 
 ## Commands
 
