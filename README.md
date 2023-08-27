@@ -19,4 +19,11 @@ Effortlessly activate or deactivate an automatic message sent at the start of a 
 ### /aja <on/off> - Auto Join Assistant
 Toggle the Auto Join Assistant feature on or off. Turn this off if you want the Categories menu to stop appearing when you join the lobby.
 
+## Discord
+
+###Join our discord server!
+https://discord.gg/KN6fScv6cs
+
 **Note:** If /st and /mst don't send back stats within 5 seconds, it means the player is new to the server or is using an alt account.
+
+
