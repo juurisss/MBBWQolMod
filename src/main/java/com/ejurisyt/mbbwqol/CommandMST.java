@@ -26,8 +26,8 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.ChatComponentText;
+import net.minecraft.entity.player.EntityPlayer;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
@@ -47,30 +47,30 @@ public class CommandMST extends CommandBase {
 
     @Override
     public String getCommandUsage(ICommandSender sender) {
-        return "/mst [username]";
+        return "/mst <username>";
     }
 
-    @Override
     public void processCommand(ICommandSender sender, String[] args) throws CommandException {
         String username;
 
         if (args.length == 0) {
             if (sender instanceof EntityPlayer) {
                 EntityPlayer player = (EntityPlayer) sender;
-                username = player.getDisplayNameString();
+                username = player.getName();
             } else {
-                throw new CommandException("Usage: /mst [username]");
+                throw new CommandException("Usage: /st <username>");
             }
         } else if (args.length == 1) {
             username = args[0];
         } else {
-            throw new CommandException("Usage: /mst [username]");
+            throw new CommandException("Usage: /st <username>");
         }
 
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
-                String apiUrl = "https://mineberry-stats-api-2vd5b.ondigitalocean.app/api/stats/" + username;
+               String currentUser = Minecraft.getMinecraft().thePlayer.getName();
+                String apiUrl = "apilinkhere" + username + "?mod=" + currentUser; // The API is private
 
                 try {
                     URL url = new URL(apiUrl);
@@ -90,14 +90,12 @@ public class CommandMST extends CommandBase {
 
                         Gson gson = new Gson();
                         JsonObject statsObject = gson.fromJson(response.toString(), JsonObject.class);
-
                         JsonObject stats = statsObject.getAsJsonObject("stats");
                         JsonObject kills = stats.getAsJsonObject("kills");
                         JsonObject deaths = stats.getAsJsonObject("deaths");
                         JsonObject wins = stats.getAsJsonObject("wins");
                         JsonObject games = stats.getAsJsonObject("games");
                         JsonObject beds = stats.getAsJsonObject("beds");
-
                         String formattedMessage = String.format(
                             "\n\u00A7aMetrics \u25B8 \u00A7r\u00A7e%s\n" +
                             "\u00A7e- \u00A7fK/D Ratio: \u00A7r\u00A7e%.3f\n" +
