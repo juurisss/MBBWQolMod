@@ -19,6 +19,11 @@ Effortlessly activate or deactivate an automatic message sent at the start of a 
 ### /aja <on/off> - Auto Join Assistant
 Toggle the Auto Join Assistant feature on or off. Turn this off if you want the Categories menu to stop appearing when you join the lobby.
 
+### Visit my website!
+ [https://juriss.xyz/](https://juriss.xyz/) 
+ 
+ [https://mb.juriss.xyz/](https://mb.juriss.xyz/) 
+ 
 ## Discord
 
 ### Join our discord server!
