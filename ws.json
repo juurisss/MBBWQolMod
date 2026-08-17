@@ -1,0 +1,20 @@
+{
+  "id": "mbbwqolmod",
+  "displayName": "MBBWQolMod",
+  "description": "A MineBerry Bedwars quality-of-life mod featuring player stats, metrics, automation, and utility commands.",
+  "longDescription": "A Minecraft mod for the Mineberry Bedwars server. Adds in-game commands for checking player stats and performance metrics, plus small automation utilities like automatic good-game / good-luck messages and a toggleable auto-join assistant.",
+  "status": "archived",
+  "statusNote": "This project is archived and no longer maintained. It was developed several years ago and some features, dependencies, or functionality may no longer work as expected. Preserved for reference.",
+  "primaryLanguage": "Java",
+  "technologies": ["Java", "Gradle", "Minecraft mod (client commands)"],
+  "categories": ["minecraft", "software"],
+  "featured": true,
+  "commands": [
+    { "cmd": "/st", "desc": "View detailed stats for any username." },
+    { "cmd": "/mst", "desc": "View a metrics/performance breakdown for a player." },
+    { "cmd": "/autogg", "desc": "Auto-send a good-game message when a match ends." },
+    { "cmd": "/autogl", "desc": "Auto-send a good-luck message at the start of a match." },
+    { "cmd": "/aja", "desc": "Toggle the auto-join assistant / category menu." }
+  ],
+  "license": "MIT"
+}
