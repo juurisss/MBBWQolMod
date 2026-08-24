@@ -34,4 +34,6 @@ https://discord.gg/KN6fScv6cs
 
 **Note:** If /st and /mst don't send back stats within 5 seconds, it means the player is new to the server or is using an alt account.
 
+**Website:** [juriss.dev](https://juriss.dev/)
 
+**Discord:** `juurisss`
